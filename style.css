@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@100;200;300;400;500&family=Square+Peg&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Righteous&family=Silkscreen:wght@700&display=swap');
 * {
   border-style: border-box;
   margin: 0;
@@ -28,8 +28,11 @@ a {
   font-family: 'Caveat', cursive;
 }
 
-.logo {
-  height: 100px;
+.navbar-brand {
+  color: #aaccff;
+  text-shadow: 3px 3px #222233;
+  font-size: 3rem;
+  font-family: 'Righteous', cursive;
 }
 
 .fa-bars {
@@ -92,6 +95,7 @@ footer > p > a:hover,
   z-index: 100;
   background-color: rgba(34, 34, 51, 0.8);
   padding: 20px;
+  width: 60vw;
 }
 
 .button:hover {
