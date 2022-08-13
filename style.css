@@ -81,9 +81,22 @@ footer > p > a:hover,
 
 /* home */
 
-.bg-img {
+.bg-img1 {
   display: flex;
   height: 88vh;
+  width: 100vw;
+  background: url('./images/flower1.jpg'),
+    linear-gradient(rgba(34, 34, 51, 0.7), rgba(34, 34, 51, 0.7));
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.bg-img2 {
+  display: flex;
+  height: 88vh;
+  width: 100vw;
   background: url('./images/flower4.jpg');
   background-position: center;
   background-size: cover;
@@ -93,7 +106,7 @@ footer > p > a:hover,
 }
 .title {
   color: var(--primary-color);
-  background-color: rgba(34, 34, 51, 0.5);
+  background-color: rgba(34, 34, 51, 0.7);
   padding: 50px;
   font-weight: 1000;
   width: 80vw;
@@ -174,7 +187,8 @@ a:hover {
 /* footer */
 
 footer {
-  position: relative;
+  position: absolute;
+  bottom: -150px;
   margin-top: 10px;
   width: 100%;
   background-color: var(--bg-color);
