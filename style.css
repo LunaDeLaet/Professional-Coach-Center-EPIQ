@@ -35,6 +35,24 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: var(--bg-color);
+  background-color: var(--primary-color);
+}
+.button {
+  background-color: var(--secondary-color);
+  color: var(--bg-color);
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.button:hover {
+  background-color: var(--secondary-color);
+  color: var(--bg-color);
+}
+
 .cursive {
   font-family: 'Caveat', cursive;
 }
@@ -79,17 +97,9 @@ footer > p > a:hover,
   color: var(--bg-color) !important;
 }
 
-.info {
-  width: 80%;
-  background-color: var(--bg-color);
-  color: var(--primary-color);
-  text-align: center;
-  margin: 30px auto 0 auto;
-  padding: 20px;
-  text-align: center;
-}
-
 /* home */
+
+/* slidehow */
 
 .bg-img1 {
   display: flex;
@@ -161,22 +171,6 @@ footer > p > a:hover,
   width: 80vw;
 }
 
-.button:hover {
-  background-color: var(--secondary-color);
-  color: var(--bg-color);
-}
-
-.button {
-  background-color: var(--secondary-color);
-  color: var(--bg-color);
-  border: none;
-  padding: 20px;
-  border-radius: 10px;
-  margin: 5px;
-}
-
-/* slidehow v2 */
-
 /* Slideshow container */
 .slideshow-container {
   position: relative;
@@ -245,7 +239,18 @@ footer > p > a:hover,
   background-color: var(--bg-color);
 }
 
-/* teamleden */
+/* BOEK ONLINE */
+.img-small {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+.row {
+  margin: 30px;
+}
+
+/* cards */
 
 .cards {
   margin: 20px auto;
@@ -257,11 +262,6 @@ footer > p > a:hover,
   padding: 0;
   box-shadow: 0 0 15px #0b1a14;
   border: none;
-}
-
-a:hover {
-  color: var(--bg-color);
-  background-color: var(--primary-color);
 }
 
 /* footer */
