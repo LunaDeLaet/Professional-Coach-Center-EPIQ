@@ -26,6 +26,10 @@ body {
   color: var(--secondary-color);
 }
 
+.bold {
+  font-weight: bold;
+}
+
 a {
   color: var(--secondary-color);
   text-decoration: none;
@@ -139,6 +143,19 @@ footer > p > a:hover,
   justify-content: center;
   overflow: hidden;
 }
+.bg-img5 {
+  display: flex;
+  height: 70vh;
+  width: 100vw;
+  background: linear-gradient(rgba(34, 34, 51, 0.7), rgba(34, 34, 51, 0.7)),
+    url('./images/flower5.jpg');
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
 .title {
   color: var(--primary-color);
   width: 80vw;
@@ -150,7 +167,7 @@ footer > p > a:hover,
 }
 
 .button {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   color: var(--bg-color);
   border: none;
   padding: 20px;
