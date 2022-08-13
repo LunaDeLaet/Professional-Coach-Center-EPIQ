@@ -147,7 +147,7 @@ footer > p > a:hover,
   display: flex;
   height: 70vh;
   width: 100vw;
-  background: linear-gradient(rgba(34, 34, 51, 0.7), rgba(34, 34, 51, 0.7)),
+  background: linear-gradient(rgba(34, 34, 51, 0.9), rgba(34, 34, 51, 0.7)),
     url('./images/flower5.jpg');
   background-position: center;
   background-size: cover;
@@ -217,7 +217,7 @@ footer > p > a:hover,
 .prev:hover,
 .next:hover {
   background-color: rgba(34, 34, 51, 0.8);
-  color: var(--bg-color);
+  color: var(--primary-color);
 }
 
 /* The dot/bullet/indicator container */
