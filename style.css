@@ -13,12 +13,13 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family: 'Poppins', sans-serif;
   height: max-content;
   color: var(--primary-color);
   background-color: var(--bg-color);
 }
-
 .yellow {
   color: var(--quartiary-color);
 }
@@ -83,7 +84,6 @@ footer > p > a:hover,
   text-align: center;
   margin: 30px auto 0 auto;
   padding: 20px;
-  position: relative;
   text-align: center;
 }
 
@@ -149,17 +149,6 @@ footer > p > a:hover,
   animation-delay: 6s;
 }
 
-.on-top {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 100;
-  background-color: rgba(34, 34, 51, 0.8);
-  padding: 20px;
-  width: 60vw;
-}
-
 .button:hover {
   background-color: var(--secondary-color);
   color: var(--primary-color);
@@ -193,27 +182,24 @@ a:hover {
 }
 
 /* footer */
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
 
-footer {
+#content-wrap {
+  padding-bottom: 80px; /* Footer height */
+}
+
+#footer {
   position: absolute;
-  bottom: -150px;
-  margin-top: 10px;
-  width: 100%;
+  bottom: 0;
+  width: 100vw;
+  height: 80px;
   background-color: var(--bg-color);
   color: var(--primary-color);
-  font-size: 0.8rem;
-  line-height: 0.2;
-  padding: 10px 10px 10px 10px;
-  flex-wrap: wrap;
-}
-
-footer > div {
-  position: absolute;
-  right: 10px;
-  top: 0;
-}
-
-footer > div > a > i {
-  color: var(--primary-color);
-  padding: 10px 5px 0 5px;
+  font-size: 0.6rem;
+  line-height: 1.5;
+  padding: 10px;
+  overflow: hidden;
 }
