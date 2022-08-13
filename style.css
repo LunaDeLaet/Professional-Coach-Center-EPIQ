@@ -271,18 +271,28 @@ a:hover {
 }
 
 #content-wrap {
-  padding-bottom: 80px; /* Footer height */
+  padding-bottom: 90px; /* Footer height */
 }
 
 #footer {
   position: absolute;
   bottom: 0;
   width: 100vw;
-  height: 80px;
+  height: 90px;
   background-color: var(--bg-color);
   color: var(--primary-color);
   font-size: 0.6rem;
   line-height: 1.5;
-  padding: 10px;
-  overflow: hidden;
+  padding: 0 10px;
+}
+
+#footer::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+/* hide scrollbar but allow scrolling */
+footer {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
 }
