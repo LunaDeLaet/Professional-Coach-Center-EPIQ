@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@100;200;300;400;500&family=Square+Peg&display=swap');
+
+* {
+  border-style: border-box;
+  margin: 0;
+  padding: 0;
+  --primary-color: #aaccff;
+  --secondary-color: #feb6ca;
+  --tertiary-color: #86d9ca;
+  --quartiary-color: #ddc894;
+  --bg-color: #222233;
+  --bg-color2: #807f94;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  height: max-content;
+  color: var(--tertiary-color);
+  background-color: var(--bg-color);
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.cursive {
+  font-family: 'Caveat', cursive;
+}
+
+.logo {
+  height: 100px;
+}
+
+.fa-bars {
+  color: var(--primary-color);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.nav-link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: var(--bg-color);
+  background-color: var(--primary-color);
+}
+
+.bg-light {
+  background-color: var(--bg-color2) !important;
+}
+
+.fa-brands {
+  color: var(--secondary-color) !important;
+}
+.fa-brands:hover,
+footer > p > a:hover,
+.link:hover {
+  background-color: var(--secondary-color) !important;
+  color: var(--bg-color) !important;
+}
+
+/* home */
+
+.info {
+  width: 100%;
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  text-align: center;
+  margin: 30px auto 0 auto;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.bg-img {
+  height: 70vh;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.on-top {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  background-color: rgba(34, 34, 51, 0.8);
+  padding: 20px;
+}
+
+.button:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.button {
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.covid button {
+  background-color: var(--secondary-color);
+  font-size: 0.8rem;
+  padding: 10px;
+}
+
+/* teamleden */
+
+.cards {
+  margin: 20px auto;
+}
+.card {
+  margin: 20px auto;
+  color: var(--primary-color);
+  text-decoration: none;
+  padding: 0;
+  box-shadow: 0 0 15px #0b1a14;
+  border: none;
+}
+
+a:hover {
+  color: var(--bg-color);
+  background-color: var(--primary-color);
+}
+
+.achtergrond {
+  text-align: left;
+}
+.achtergrond > p > a,
+.achtergrond > ul > li > a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+.achtergrond > p > a:hover,
+.achtergrond > ul > li > a:hover {
+  background-color: var(--secondary-color);
+  color: var(--bg-color);
+}
+.achtergrond > p {
+  margin-left: 30px;
+}
+.achtergrond > h5 {
+  margin-top: 50px;
+  font-weight: bolder;
+  font-size: 1.8rem;
+}
+
+.achtergrond > h6 {
+  font-weight: bold;
+  margin-top: 30px;
+}
+.achtergrond > h7 {
+  text-decoration: underline;
+}
+
+/* footer */
+
+footer {
+  position: relative;
+  margin-top: 50px;
+  width: 100%;
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  font-size: 0.8rem;
+  line-height: 0.2;
+  padding: 10px 10px 10px 10px;
+  flex-wrap: wrap;
+}
+
+footer > div {
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+
+footer > div > a > i {
+  color: var(--primary-color);
+  padding: 10px 5px;
+}
