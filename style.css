@@ -89,7 +89,7 @@ footer > p > a:hover,
 
 .bg-img1 {
   display: flex;
-  height: 88vh;
+  height: 70vh;
   width: 100vw;
   background: linear-gradient(rgba(34, 34, 51, 0.7), rgba(34, 34, 51, 0.7)),
     url('./images/flower1.jpg');
@@ -102,10 +102,36 @@ footer > p > a:hover,
 }
 .bg-img2 {
   display: flex;
-  height: 88vh;
+  height: 70vh;
   width: 100vw;
   background: linear-gradient(rgba(34, 34, 51, 0.7), rgba(34, 34, 51, 0.7)),
     url('./images/hands-holding-light1.jpg');
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.bg-img3 {
+  display: flex;
+  height: 70vh;
+  width: 100vw;
+  background: linear-gradient(rgba(34, 34, 51, 0.7), rgba(34, 34, 51, 0.7)),
+    url('./images/nature2.jpg');
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.bg-img4 {
+  display: flex;
+  height: 70vh;
+  width: 100vw;
+  background: linear-gradient(rgba(34, 34, 51, 0.7), rgba(34, 34, 51, 0.7)),
+    url('./images/nature1.jpg');
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -120,7 +146,7 @@ footer > p > a:hover,
 
 .button:hover {
   background-color: var(--secondary-color);
-  color: var(--primary-color);
+  color: var(--bg-color);
 }
 
 .button {
@@ -129,9 +155,10 @@ footer > p > a:hover,
   border: none;
   padding: 20px;
   border-radius: 10px;
+  margin: 5px;
 }
 
-/* slidehow 2 */
+/* slidehow v2 */
 
 /* Slideshow container */
 .slideshow-container {
