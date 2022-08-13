@@ -19,6 +19,14 @@ body {
   background-color: var(--bg-color);
 }
 
+.yellow {
+  color: var(--quartiary-color);
+}
+
+.pink {
+  color: var(--secondary-color);
+}
+
 a {
   color: var(--secondary-color);
   text-decoration: none;
@@ -30,7 +38,7 @@ a {
 
 .navbar-brand {
   color: #aaccff;
-  text-shadow: 3px 3px #222233;
+  text-shadow: 3px 3px #8577ff;
   font-size: 3rem;
   font-family: 'Righteous', cursive;
 }
