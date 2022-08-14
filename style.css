@@ -103,6 +103,22 @@ footer > p > a:hover,
 
 /* slidehow */
 
+.fade-in {
+  animation: fadeIn 2.5s;
+  -webkit-animation: fadeIn 2.5s;
+  -moz-animation: fadeIn 2.5s;
+  -o-animation: fadeIn 2.5s;
+  -ms-animation: fadeIn 2.5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .bg-img1 {
   display: flex;
   height: 82vh;
