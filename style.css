@@ -248,6 +248,27 @@ footer > p > a:hover,
 
 .row {
   margin: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-sm-2 {
+  text-align: center;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    max-width: 100%;
+    margin: 30px auto;
+  }
+  .col-sm-2 {
+    flex: 0;
+    width: 100%;
+  }
 }
 
 /* cards */
