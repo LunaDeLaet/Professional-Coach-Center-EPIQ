@@ -9,7 +9,7 @@
   --tertiary-color: #86d9ca;
   --quartiary-color: #ddc894;
   --bg-color: #222233;
-  --bg-color2: #807f94;
+  --bg-color2: #414054;
 }
 
 body {
@@ -242,38 +242,6 @@ footer > p > a:hover,
 }
 
 /* BOEK ONLINE */
-.img-small {
-  height: 100px;
-  width: 100px;
-  object-fit: cover;
-}
-
-.row {
-  margin: 30px;
-  justify-content: center;
-  align-items: center;
-}
-
-.col-sm-2 {
-  text-align: center;
-  margin: 10px;
-}
-
-@media only screen and (max-width: 1200px) {
-  .row {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    width: 100%;
-    max-width: 100%;
-    margin: 30px auto;
-  }
-  .col-sm-2 {
-    flex: 0;
-    width: 100%;
-  }
-}
-
-/* cards */
 
 .cards {
   margin: 20px auto;
@@ -283,8 +251,16 @@ footer > p > a:hover,
   color: var(--primary-color);
   text-decoration: none;
   padding: 0;
-  box-shadow: 0 0 15px #0b1a14;
+  box-shadow: 0 0 15px var(--secondary-color);
   border: none;
+  text-align: center;
+  background-color: var(--bg-color2);
+  font-weight: bold;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
 }
 
 /* footer */
