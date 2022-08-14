@@ -39,6 +39,7 @@ a:hover {
   color: var(--bg-color);
   background-color: var(--primary-color);
 }
+
 .button {
   background-color: var(--secondary-color);
   color: var(--bg-color);
@@ -104,7 +105,7 @@ footer > p > a:hover,
 
 .bg-img1 {
   display: flex;
-  height: 82vh;
+  height: 8vh;
   width: 100vw;
   background: linear-gradient(rgba(34, 34, 51, 0.7), rgba(34, 34, 51, 0.7)),
     url('./images/flower1.jpg');
@@ -117,7 +118,7 @@ footer > p > a:hover,
 }
 .bg-img2 {
   display: flex;
-  height: 82vh;
+  height: 8vh;
   width: 100vw;
   background: linear-gradient(rgba(34, 34, 51, 0.7), rgba(34, 34, 51, 0.7)),
     url('./images/hands-holding-light1.jpg');
@@ -130,7 +131,7 @@ footer > p > a:hover,
 }
 .bg-img3 {
   display: flex;
-  height: 82vh;
+  height: 8vh;
   width: 100vw;
   background: linear-gradient(rgba(34, 34, 51, 0.7), rgba(34, 34, 51, 0.7)),
     url('./images/nature2.jpg');
@@ -143,7 +144,7 @@ footer > p > a:hover,
 }
 .bg-img4 {
   display: flex;
-  height: 82vh;
+  height: 8vh;
   width: 100vw;
   background: linear-gradient(rgba(34, 34, 51, 0.7), rgba(34, 34, 51, 0.7)),
     url('./images/nature1.jpg');
@@ -156,7 +157,7 @@ footer > p > a:hover,
 }
 .bg-img5 {
   display: flex;
-  height: 82vh;
+  height: 8vh;
   width: 100vw;
   background: linear-gradient(rgba(34, 34, 51, 0.9), rgba(34, 34, 51, 0.7)),
     url('./images/flower5.jpg');
