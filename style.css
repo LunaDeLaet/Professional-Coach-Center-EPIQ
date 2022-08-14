@@ -9,7 +9,7 @@
   --tertiary-color: #86d9ca;
   --quartiary-color: #ddc894;
   --bg-color: #222233;
-  --bg-color2: #414054;
+  --bg-color2: #6c6b8d;
 }
 
 body {
@@ -251,16 +251,34 @@ footer > p > a:hover,
   color: var(--primary-color);
   text-decoration: none;
   padding: 0;
-  box-shadow: 0 0 15px var(--secondary-color);
+  box-shadow: 0 0 15px var(--bg-color);
   border: none;
-  text-align: center;
-  background-color: var(--bg-color2);
+  background-color: var(--bg-color);
   font-weight: bold;
 }
 
 .card-img-top {
   object-fit: cover;
   height: 200px;
+}
+
+.boek:hover {
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+}
+
+.bg-img6 {
+  display: flex;
+  height: max-content;
+  width: 100vw;
+  background: linear-gradient(rgba(34, 34, 51, 0.9), rgba(34, 34, 51, 0.7)),
+    url('./images/flower4.jpg');
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 /* footer */
