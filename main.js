@@ -28,13 +28,13 @@ headerTemplate.innerHTML = `
         <a class="nav-link" href="equicoaching.html">Equicoaching</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="activiteiten.html">Activiteiten</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="autishop.html">Autishop</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="who-is-who.html">Wie is wie?</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="ativiteiten.html">Activiteiten</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="autishop.html">Autishop</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="contact.html">Contact</a>
