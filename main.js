@@ -1,4 +1,4 @@
-// HTML template //
+// HEADER HTML template //
 
 const headerTemplate = document.getElementById('header')
 
@@ -45,7 +45,29 @@ headerTemplate.innerHTML = `
 </nav>
 `
 
-document.body.appendChild(headerTemplate.content)
+// FOOTER HTML template //
+
+const footerTemplate = document.getElementById('footer')
+
+footerTemplate.innerHTML = `
+<p>
+Professional Coach Center EPIQ en groepspraktijk Anemoon
+<br />
+<i class="fa-solid fa-location-dot"></i><a
+  href="https://www.google.com/maps/dir//Anemoon+multidisciplinair+diagnose+%26+therapiecentrum+Wilrijk,+kinder-+en+jeugdpsychiatrie+en+therapie,+Prins+Boudewijnlaan+347,+2610+Antwerpen/@51.1711376,4.3566004,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47c3f1108d8e7d03:0xf3e8d6ea69881dec!2m2!1d4.4265998!2d51.1711554"
+  target="_blank">
+  Prins Boudewijnlaan 347, 2610 Wilrijk
+</a>
+<br />
+<i class="fa-solid fa-envelope"></i>
+<a class="link" href="mailto:info@epiq.center">
+  info@epiq.center</a>
+;<br /><a class="link" href="mailto:katleen.timmermans@groepspraktijkanemoon.be">
+  katleen.timmermans@groepspraktijkanemoon.be</a>
+<br />
+<i class="fa-solid fa-phone"></i><a href="tel:0471647701"> 0471/64.77.01</a>
+</p>
+`
 
 // SLIDESHOW //
 
