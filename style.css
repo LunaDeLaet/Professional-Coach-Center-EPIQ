@@ -8,6 +8,7 @@
   --secondary-color: #feb6ca;
   --tertiary-color: #86d9ca;
   --quartiary-color: #ddc894;
+  --pentiary-color: #8577ff;
   --bg-color: #222233;
   --bg-color2: #6c6b8d;
 }
@@ -37,7 +38,7 @@ a {
 
 a:hover {
   color: var(--bg-color);
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
 .button {
@@ -61,7 +62,7 @@ a:hover {
 
 .navbar-brand {
   color: #aaccff;
-  text-shadow: 3px 3px #8577ff;
+  text-shadow: 3px 3px var(--pentiary-color);
   font-size: 3rem;
   font-family: 'Righteous', cursive;
   padding: 10px;
@@ -156,6 +157,18 @@ footer > p > a:hover,
   height: fit-content !important;
   padding: 55px;
 }
+.bg-img8 {
+  background: linear-gradient(rgba(34, 34, 51, 0.9), rgba(34, 34, 51, 0.7)),
+    url('./images/hands-holding-light2.jpg');
+  height: fit-content !important;
+  padding: 55px;
+}
+.bg-img-auti {
+  background: linear-gradient(rgba(34, 34, 51, 0.9), rgba(34, 34, 51, 0.7)),
+    url('./images/auti.jpg');
+  height: fit-content !important;
+  padding: 55px;
+}
 
 .bg-img {
   display: flex;
@@ -169,7 +182,23 @@ footer > p > a:hover,
 }
 .title {
   color: var(--primary-color);
-  width: 80vw;
+  width: 70vw;
+}
+.info {
+  color: var(--primary-color);
+  width: 70vw;
+  text-align: left;
+  background-color: var(--bg-color);
+  padding: 40px;
+}
+.center {
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  margin: 0 auto;
+  align-content: center;
+  justify-self: center;
 }
 
 /* Slideshow container */
