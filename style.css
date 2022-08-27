@@ -47,10 +47,11 @@ a:hover {
   padding: 20px;
   border-radius: 10px;
   margin: 5px;
+  font-weight: bold;
 }
 
 .button:hover {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   color: var(--bg-color);
 }
 
@@ -149,6 +150,13 @@ footer > p > a:hover,
     url('./images/flower5.jpg');
   
 }
+.bg-img7 {
+  background: linear-gradient(rgba(34, 34, 51, 0.9), rgba(34, 34, 51, 0.7)),
+    url('./images/peace2.jpg');
+  height: fit-content !important;
+  padding: 55px;
+}
+
 .bg-img {
   display: flex;
   height: 76vh;
