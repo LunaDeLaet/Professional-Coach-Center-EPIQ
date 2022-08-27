@@ -1,3 +1,54 @@
+// HTML template //
+
+const headerTemplate = document.getElementById('header')
+
+headerTemplate.innerHTML = `
+<nav class="navbar navbar-expand-lg bg-light">
+<div class="container-fluid">
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+    aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa-solid fa-bars fa-2xl"></i>
+  </button>
+  <a class="navbar-brand" href="index.html">EPIQ</a>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="index.html">Welkom</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="boek-online.html">BOEK ONLINE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="auticoaching.html">Auticoaching</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="psychologische-coaching.html">Psychologische coaching</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="equicoaching.html">Equicoaching</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="who-is-who.html">Wie is wie?</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ativiteiten.html">Activiteiten</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="autishop.html">Autishop</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+`
+
+document.body.appendChild(headerTemplate.content)
+
+// SLIDESHOW //
+
 var slideIndex = 1
 showSlides(slideIndex)
 

@@ -120,69 +120,44 @@ footer > p > a:hover,
 }
 
 .bg-img1 {
-  display: flex;
-  height: 82vh;
-  width: 100vw;
+
   background: linear-gradient(rgba(34, 34, 51, 0.7), rgba(34, 34, 51, 0.7)),
     url('./images/flower1.jpg');
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
+  
 }
 .bg-img2 {
-  display: flex;
-  height: 82vh;
-  width: 100vw;
+  
   background: linear-gradient(rgba(34, 34, 51, 0.7), rgba(34, 34, 51, 0.7)),
     url('./images/hands-holding-light1.jpg');
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
+  
 }
 .bg-img3 {
-  display: flex;
-  height: 82vh;
-  width: 100vw;
+  
   background: linear-gradient(rgba(34, 34, 51, 0.7), rgba(34, 34, 51, 0.7)),
     url('./images/nature2.jpg');
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
+  
 }
 .bg-img4 {
-  display: flex;
-  height: 82vh;
-  width: 100vw;
+  
   background: linear-gradient(rgba(34, 34, 51, 0.7), rgba(34, 34, 51, 0.7)),
     url('./images/nature1.jpg');
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
+  
 }
 .bg-img5 {
-  display: flex;
-  height: 82vh;
-  width: 100vw;
+  
   background: linear-gradient(rgba(34, 34, 51, 0.9), rgba(34, 34, 51, 0.7)),
     url('./images/flower5.jpg');
+  
+}
+.bg-img {
+  display: flex;
+  height: 76vh;
+  width: 100vw;
   background-position: center;
   background-size: cover;
   text-align: center;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
 }
 .title {
   color: var(--primary-color);
@@ -276,6 +251,7 @@ footer > p > a:hover,
 .card-img-top {
   object-fit: cover;
   height: 200px;
+  
 }
 
 .boek:hover {
@@ -295,6 +271,12 @@ footer > p > a:hover,
   align-items: center;
   justify-content: center;
   overflow: hidden;
+}
+
+
+.img-small {
+  height: 50px;
+  width: 50px;
 }
 
 /* footer */
