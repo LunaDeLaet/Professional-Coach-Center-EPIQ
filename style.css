@@ -45,7 +45,7 @@ a:hover {
   background-color: var(--secondary-color);
   color: var(--bg-color);
   border: none;
-  padding: 20px;
+  padding: 15px;
   border-radius: 10px;
   margin: 5px;
   font-weight: bold;
@@ -167,7 +167,8 @@ a:hover {
 
 .bg-img {
   display: flex;
-  height: 76vh;
+  height: fit-content;
+  min-height: 76vh;
   width: 100vw;
   background-position: center;
   background-size: cover;
@@ -287,10 +288,12 @@ a:hover {
   
 }
 
-.boek:hover {
-  background-color: var(--bg-color);
+.card:hover {
+  background-color: var(--bg-color2);
   color: var(--primary-color);
 }
+
+
 
 .bg-img6 {
   display: flex;
