@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   --primary-color: #aaccff;
-  --secondary-color: #feb6ca;
+  --secondary-color: rgb(254, 182, 202);
   --tertiary-color: #86d9ca;
   --quartiary-color: #ddc894;
   --pentiary-color: #8577ff;
@@ -52,8 +52,8 @@ a:hover {
 }
 
 .button:hover {
-  background-color: var(--primary-color);
-  color: var(--bg-color);
+  background-color: var(--bg-color);
+  color: var(--secondary-color);
 }
 
 .cursive {
@@ -61,7 +61,7 @@ a:hover {
 }
 
 .navbar-brand {
-  color: #aaccff;
+  color: var(--primary-color);
   text-shadow: 3px 3px var(--pentiary-color);
   font-size: 3rem;
   font-family: 'Righteous', cursive;
@@ -82,7 +82,7 @@ a:hover {
 }
 
 .nav-link:hover,
-.nav-link.active {
+.nav-link.active, .navbar-brand:hover {
   color: var(--bg-color);
   background-color: var(--primary-color);
 }
@@ -94,12 +94,7 @@ a:hover {
 .fa-brands {
   color: var(--secondary-color) !important;
 }
-.fa-brands:hover,
-footer > p > a:hover,
-.link:hover {
-  background-color: var(--secondary-color) !important;
-  color: var(--bg-color) !important;
-}
+
 
 /* home */
 
@@ -223,11 +218,12 @@ footer > p > a:hover,
   width: auto;
   margin-top: -30px;
   padding: 30px;
-  color: var(--bg-color2);
+  color: var(--secondary-color);
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
   user-select: none;
+
 }
 
 /* Position the "next button" to the right */
@@ -240,8 +236,8 @@ footer > p > a:hover,
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: rgba(34, 34, 51, 0.8);
-  color: var(--primary-color);
+  background-color: rgba(254, 182, 202, 0.4);
+  color: var(--bg-color)
 }
 
 /* The dot/bullet/indicator container */
