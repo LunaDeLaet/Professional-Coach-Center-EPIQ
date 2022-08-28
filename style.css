@@ -207,6 +207,18 @@ a:hover {
   padding: 55px;
   min-height: 85vh !important;
 }
+.bg-img-shop {
+  background: linear-gradient(rgba(34, 34, 51, 0.9), rgba(34, 34, 51, 0.7)),
+    url('./images/balloons.jpg');
+  padding: 55px;
+  min-height: 85vh !important;
+}
+.bg-img-wie {
+  background: linear-gradient(rgba(34, 34, 51, 0.9), rgba(34, 34, 51, 0.7)),
+    url('./images/clouds.jpg');
+  padding: 55px;
+  min-height: 85vh !important;
+}
 
 .bg-img {
   display: flex;
