@@ -218,11 +218,11 @@ a:hover {
   top: 50%;
   width: auto;
   margin-top: -30px;
-  padding: 30px;
+  padding: 20px;
   color: var(--secondary-color);
   font-weight: bold;
   font-size: 20px;
-  border-radius: 0 3px 3px 0;
+  border-radius: 0 10px 10px 0;
   user-select: none;
 
 }
@@ -231,7 +231,7 @@ a:hover {
 .next {
   position: absolute;
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 10px 0 0 10px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
